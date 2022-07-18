@@ -1,0 +1,25 @@
+{
+  "name": "social-network-api",
+  "version": "1.0.0",
+  "description": "This project is a demostration of a backend for a soical network web application user that they can share their thought, react to friend's thoughts, and create a friend list and create a friend list. Using technologies like express.js, Mongoose.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.4.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/louieiply/Social-Network-API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/louieiply/Social-Network-API/issues"
+  },
+  "homepage": "https://github.com/louieiply/Social-Network-API#readme"
+}
