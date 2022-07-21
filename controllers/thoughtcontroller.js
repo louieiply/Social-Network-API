@@ -64,6 +64,7 @@ module.exports = {
     },
     // remove a reaction
     removeReaction(req, res){
+        console.log(req.body.reactionId);
         Thought.findOneAndUpdate(
             { _id: req.params.thoughtId},
             { $pull: {reactions: req.body.reactionId}},
